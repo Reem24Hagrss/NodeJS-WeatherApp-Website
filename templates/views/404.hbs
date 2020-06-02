@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo.png" >
+    <link rel='stylesheet' href="/css/style.css" >
+    <title> My 404 Error Page</title>
+</head>
+<body>    
+    <div class="main-content">
+        {{>header}}
+        <div class="error">
+            <p> {{message}} </p>
+            <img src='/img/error.jpg'/>
+        </div>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>
